@@ -5,7 +5,7 @@
  */
 function solution(n, arr) {
 	arr.sort(xOfferLessIncreaseThanY);
-	console.log(arr);
+	return arr.join("");
 }
 
 /**
