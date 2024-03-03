@@ -45,5 +45,5 @@ function xOfferLessIncreaseThanY(x, y) {
 let arr1 = ["54", "546", "548", "60"],
 	arr2 = ["3", "30", "34", "5", "9"];
 
-solution(arr1.length, arr1);
-solution(arr2.length, arr2);
+console.log(arr1, solution(arr1.length, arr1));
+console.log(arr2, solution(arr2.length, arr2));
